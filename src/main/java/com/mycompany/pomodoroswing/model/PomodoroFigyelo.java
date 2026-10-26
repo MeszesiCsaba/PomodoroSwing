@@ -9,7 +9,8 @@ package com.mycompany.pomodoroswing.model;
  * @author mcsab
  */
 public interface PomodoroFigyelo {
+    
     void tikk(int hatralevoMasodperc);
     
-    void allapotvaltozott(Allapot uj);
+    void allapotValtozott(Allapot uj);
 }
